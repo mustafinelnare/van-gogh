@@ -1,0 +1,27 @@
+.field {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    "img img"
+    "title link"
+    "year .";
+}
+
+@media screen and (max-width: 1024px) {
+  .field {
+    grid-template-areas:
+      "img img"
+      "title ."
+      "year link";
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .field {
+    grid-template-areas:
+      "title title"
+      "img img"
+      "year link";
+  }
+}
