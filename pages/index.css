@@ -2,11 +2,9 @@
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/intro/intro.css);
-@import url(../blocks/works/works.css);
-@import url(../blocks/works/__a/works__a.css);
-@import url(../blocks/works/__b/works__b.css);
-@import url(../blocks/works/__c/works__c.css);
-@import url(../blocks/works/__d/works__d.css);
-@import url(../blocks/works/__e/works__e.css);
-@import url(../blocks/works/__f/works__f.css);
-@import url(../blocks/works/__g/works__g.css);
+@import url(../blocks/intro/__works/intro__works.css);
+@import url(../blocks/intro/__image/intro__image.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__container/intro__container.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__link/intro__link.css);
