@@ -1,7 +1,31 @@
 .quote__text {
   margin: 0;
   font-weight: 300;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 14px;
+  line-height: 22px;
   color: #f1f1df;
+}
+
+.quote__text:not(:first-child) {
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .quote__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .quote__text {
+    line-height: 28px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .quote__text {
+    font-size: 20px;
+    line-height: 28px;
+  }
 }

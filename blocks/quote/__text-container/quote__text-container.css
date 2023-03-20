@@ -1,3 +1,24 @@
 .quote__text-container {
-  max-width: 469px;
+  grid-area: text;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .quote__text-container {
+    max-width: 300px;
+    margin-top: 56px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .quote__text-container {
+    max-width: 460px;
+    margin-left: 80px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .quote__text-container {
+    margin-top: 80px;
+  }
 }
