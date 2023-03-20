@@ -1,0 +1,31 @@
+.field__year {
+  margin: 0;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35px;
+  color: #f1f1df;
+  grid-area: year;
+  margin-left: 120px;
+}
+
+@media screen and (max-width: 1024px) {
+  .field__year {
+    margin-left: 42px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .field__year {
+    margin-left: 74px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .field__year {
+    margin-left: 16px;
+    margin-top: 13px;
+    font-size: 24px;
+    line-height: 26px;
+    color: #b4b4a7;
+  }
+}

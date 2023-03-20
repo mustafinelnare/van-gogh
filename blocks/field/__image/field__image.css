@@ -1,0 +1,13 @@
+.field__image {
+  display: block;
+  max-width: 100%;
+  grid-area: img;
+  justify-self: center;
+}
+
+@media screen and (max-width: 749px) {
+  .field__image {
+    max-height: 375px;
+    max-width: none;
+  }
+}
