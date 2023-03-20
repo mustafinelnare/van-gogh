@@ -1,0 +1,9 @@
+.quote__title {
+  font-family: "Playfair Display";
+  margin: 0;
+  max-width: 1128px;
+  font-weight: 200;
+  font-size: 64px;
+  line-height: 72px;
+  color: #f1f1df;
+}
