@@ -16,3 +16,15 @@
 @import url(../blocks/quote/__image/quote__image.css);
 @import url(../blocks/quote/__sunflower-l/quote__sunflower-l.css);
 @import url(../blocks/quote/__sunflower-r/quote__sunflower-r.css);
+
+@import url(../blocks/ticket/ticket.css);
+@import url(../blocks/ticket/__title/ticket__title.css);
+@import url(../blocks/ticket/__list/ticket__list.css);
+@import url(../blocks/ticket/__image-cover/ticket__image-cover.css);
+@import url(../blocks/ticket/__image-grove/ticket__image-grove.css);
+@import url(../blocks/ticket/__image-eyes/ticket__image-eyes.css);
+@import url(../blocks/ticket/__info/ticket__info.css);
+@import url(../blocks/ticket/__capture/ticket__capture.css);
+@import url(../blocks/ticket/__date-grove/ticket__date-grove.css);
+@import url(../blocks/ticket/__date-eyes/ticket__date-eyes.css);
+@import url(../blocks/ticket/__link/ticket__link.css);

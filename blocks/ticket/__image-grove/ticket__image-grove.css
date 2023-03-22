@@ -1,0 +1,22 @@
+.ticket__image-grove {
+  display: block;
+  max-height: 272px;
+}
+
+@media screen and (min-width: 768px) {
+  .ticket__image-grove {
+    max-height: 256px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .ticket__image-grove {
+    max-height: 345px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .ticket__image-grove {
+    max-height: 501px;
+  }
+}

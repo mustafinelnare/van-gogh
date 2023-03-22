@@ -1,0 +1,23 @@
+.ticket {
+  background-color: #e9d258;
+  padding: 16px 0 16px 16px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .ticket {
+    padding-left: 74px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .ticket {
+    padding: 24px 0 24px 42px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .ticket {
+    padding: 20px 0 23px 120px;
+  }
+}

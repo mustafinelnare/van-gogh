@@ -1,0 +1,10 @@
+.ticket__image-eyes {
+  display: block;
+  max-height: 272px;
+}
+
+@media screen and (min-width: 768px) {
+  .ticket__image-eyes {
+    max-height: 206px;
+  }
+}

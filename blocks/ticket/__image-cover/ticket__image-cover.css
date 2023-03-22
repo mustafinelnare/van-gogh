@@ -1,0 +1,44 @@
+.ticket__image-cover {
+  overflow: hidden;
+  max-width: 272px;
+  flex-shrink: 0;
+}
+
+.ticket__image-cover:not(:first-child) {
+  margin-left: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .ticket__image-cover {
+    overflow: visible;
+    max-width: 100%;
+  }
+
+  .ticket__image-cover:not(:first-child) {
+    margin-left: 21px;
+  }
+
+  .ticket__image-cover:first-child {
+    margin-left: 80px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .ticket__image-cover:not(:first-child) {
+    margin-left: 59px;
+  }
+
+  .ticket__image-cover:first-child {
+    margin-left: 160px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .ticket__image-cover:not(:first-child) {
+    margin-left: 146px;
+  }
+
+  .ticket__image-cover:first-child {
+    margin-left: 232px;
+  }
+}
