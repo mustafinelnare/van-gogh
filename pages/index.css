@@ -14,3 +14,5 @@
 @import url(../blocks/quote/__text/quote__text.css);
 @import url(../blocks/quote/__link/quote__link.css);
 @import url(../blocks/quote/__image/quote__image.css);
+@import url(../blocks/quote/__sunflower-l/quote__sunflower-l.css);
+@import url(../blocks/quote/__sunflower-r/quote__sunflower-r.css);

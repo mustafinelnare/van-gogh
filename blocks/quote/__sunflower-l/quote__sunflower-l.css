@@ -1,0 +1,35 @@
+.quote__sunflower-l {
+  display: block;
+  max-width: 175px;
+  position: absolute;
+  bottom: 61px;
+  right: -100px;
+  transform: rotate(113deg);
+}
+
+@media screen and (min-width: 768px) {
+  .quote__sunflower-l {
+    max-width: 373px;
+    bottom: 61px;
+    right: -239px;
+    transform: rotate(100deg);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .quote__sunflower-l {
+    max-width: 373px;
+    bottom: 183px;
+    left: -232px;
+    transform: rotate(10deg);
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .quote__sunflower-l {
+    max-width: 520px;
+    bottom: 365px;
+    left: -304px;
+    transform: rotate(10deg);
+  }
+}
