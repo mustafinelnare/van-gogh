@@ -1,0 +1,11 @@
+.footer__arrow {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+  min-height: 15px;
+  width: 27px;
+  background-image: url(.../../../../../images/Vector.png);
+  background-repeat: no-repeat;
+}
