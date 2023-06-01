@@ -1,0 +1,28 @@
+.quote {
+  padding: 68px 16px 72px 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .quote {
+    padding: 120px 74px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "title title"
+      "text img";
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .quote {
+    padding: 160px 42px 132px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .quote {
+    padding: 300px 205px 300px 120px;
+  }
+}

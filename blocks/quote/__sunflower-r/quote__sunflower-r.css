@@ -1,0 +1,31 @@
+.quote__sunflower-r {
+  display: block;
+  max-width: 175px;
+  position: absolute;
+  top: 69px;
+  right: -89px;
+}
+
+@media screen and (min-width: 768px) {
+  .quote__sunflower-r {
+    max-width: 322px;
+    top: 147px;
+    right: -178px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .quote__sunflower-r {
+    max-width: 336px;
+    top: 147px;
+    right: -194px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .quote__sunflower-r {
+    max-width: 520px;
+    top: 207px;
+    right: -293px;
+  }
+}

@@ -1,0 +1,23 @@
+.ticket__capture {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .ticket__capture {
+    display: block;
+    margin: 0;
+    margin-top: 8px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 128.02%;
+    color: #8e8036;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .ticket__capture {
+    margin-top: 14px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+}

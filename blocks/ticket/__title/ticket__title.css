@@ -1,0 +1,33 @@
+.ticket__title {
+  font-family: "Playfair Display";
+  margin: 0;
+  margin-bottom: 32px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 44px;
+  color: #0b0606;
+}
+
+@media screen and (min-width: 768px) {
+  .ticket__title {
+    margin-bottom: 59px;
+    font-size: 52px;
+    line-height: 57px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .ticket__title {
+    margin-bottom: 45px;
+    font-size: 52px;
+    line-height: 57px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .ticket__title {
+    margin-bottom: 9px;
+    font-size: 64px;
+    line-height: 70px;
+  }
+}

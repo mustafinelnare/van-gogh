@@ -1,0 +1,23 @@
+.ticket__link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #0b0606;
+}
+
+@media screen and (min-width: 768px) {
+  .ticket__link {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .ticket__link {
+    font-size: 20px;
+    line-height: 24px;
+    color: #2b3344;
+  }
+}

@@ -1,0 +1,19 @@
+.footer__adress {
+  margin: 0;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.28;
+  color: #f1f1df;
+}
+
+@media (min-width: 768px) {
+  .footer__adress {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .footer__adress {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,15 @@
+.ticket__date-grove {
+  margin: 0;
+  margin-top: 8px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #8a7d35;
+}
+@media screen and (min-width: 1600px) {
+  .ticket__date-grove {
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+}

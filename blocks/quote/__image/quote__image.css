@@ -1,0 +1,27 @@
+.quote__image {
+  display: block;
+  max-width: 343px;
+  margin: 15px auto 0;
+  grid-area: img;
+}
+
+@media screen and (min-width: 768px) {
+  .quote__image {
+    max-width: 300px;
+    margin-top: 120px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .quote__image {
+    max-width: 380px;
+    margin: 50px 0 0 auto;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .quote__image {
+    max-width: 578px;
+    margin: 23px 0 0 auto;
+  }
+}
